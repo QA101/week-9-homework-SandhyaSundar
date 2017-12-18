@@ -1,0 +1,139 @@
+
+WebElements:
+Demoqa Webpage:
+
+WebDriver Home= driver.findElement(By.Linktext("http://demoqa.com/"));
+Html tag= <a title="Home" href="http://demoqa.com/">Home</a>
+
+WebDriver Aboutus=driver.findElement(By.LinkText("http://demoqa.com/about-us/"));
+html tag=<a title="About us" href="http://demoqa.com/about-us/">About us</a>
+
+WebDriver Services= driver.findElement(By.class("page page-id-114 page-template-default"));
+html tag=<body class="page page-id-114 page-template-default">
+
+WebDriver DraggableDemo= driver.findElement(By.class("page page-id-22 page-template-default"));
+html tag=<body class="page page-id-22 page-template-default">
+
+WebDriver TabsDemo=driver.findElement(By.class("page page-id-82 page-template-default"));
+html tag=<body class="page page-id-82 page-template-default">
+
+WebDriver Blog=driver.findElement(By.class("blog"));
+html tag=<body class="blog">
+
+Webdriver Contact=driver.findElement(By.class(""page page-id-28 page-template-default"));
+html tag=<body class="page page-id-28 page-template-default"></body>
+
+WebDriver Registration= driver.findElement(By.LinkText("http://demoqa.com/registration/"));
+html tag=<a href="http://demoqa.com/registration/">Registration</a>
+
+WebDriver draggableSide=driver.findElement(By.Linktext("http://demoqa.com/draggable/"));
+html tag=<a href="http://demoqa.com/draggable/">Draggable</a>
+
+WebDriver DroppableSide= driver.findElement(By.LinkText("http://demoqa.com/droppable/">Droppable"));
+html tag=<a href="http://demoqa.com/droppable/">Droppable</a>
+
+WebDriver ResizableSide= driver.findElement(By.LinkText("http://demoqa.com/resizable/">Resizable"));
+html tag=<a href="http://demoqa.com/resizable/">Resizable"</a>
+
+
+WebDriver SelectableSide= driver.findElement(By.LinkText("http://demoqa.com/selectable/"));
+html tag=<a href="http://demoqa.com/selectable/">Selectable</a>
+
+WebDriver SortableSie=driver.findElement(By.LinkText("http://demoqa.com/sortable/">Sortable"));
+html tag=<a href="http://demoqa.com/sortable/">Sortable</a>
+
+WebDriver WidgetAccordion= driver.findElement(By.Linktext("http://demoqa.com/accordion/">Accordion"));
+html tag=<a href="http://demoqa.com/accordion/">Accordion</a>
+
+WebDriver WidgetAutoComplete=driver.findElement(By.Linktext("http://demoqa.com/autocomplete/"));
+html tag=<a href="http://demoqa.com/autocomplete/">Autocomplete</a>
+
+WebDriver WidgetDatePicker= driver.findElement(By.Linktext("http://demoqa.com/datepicker/"));
+html tag=<a href="http://demoqa.com/datepicker/">Datepicker</a>
+
+
+WebDriver WidgetSlider = driver.findElement(By.Xpath(/html/body/div[1]/div/div[2]/aside[3]/div[2]/div/ul/li[5]/a));
+or
+WebDriver WidgetSlider= driver.findElement(By.LinkText("http://demoqa.com/slider/"));
+Html Tag=<a href="http://demoqa.com/slider/">Slider</a>
+Xpath===/html/body/div[1]/div/div[2]/aside[3]/div[2]/div/ul/li[5]/a
+
+WebDriver WidgetTabs=driver.findElement(By.LinkText("http://demoqa.com/tabs/"));
+Html tag=<a href="http://demoqa.com/tabs/">Tabs</a>
+Xpath=/html/body/div[1]/div/div[2]/aside[3]/div[2]/div/ul/li[6]/a
+
+Webdriver WidgetTooltip= driver.findElement(By.LinkText("http://demoqa.com/tooltip/"));
+HtmlTag=<a href="http://demoqa.com/tooltip/">Tooltip</a>
+Xpath=/html/body/div[1]/div/div[2]/aside[3]/div[2]/div/ul/li[7]/a
+
+WebDriver Framesand Windows= driver.findElement(By.LinkText(""http://demoqa.com/frames-and-windows/"));
+html tag=<a href="http://demoqa.com/frames-and-windows/">Frames and windows</a>
+xpath=/html/body/div[1]/div/div[2]/aside[4]/div[2]/div/ul/li/a
+
+
+WebDriver FirstName= driver.findElement(By.id("name_3_firstname"));
+Html Tag=<input value="" id="name_3_firstname" name="first_name" class="input_fields  piereg_validate[required] input_fields" type="text">
+Xpath=//*[@id="name_3_firstname"]
+
+WebDriver LastName=driver.findelement(By.id("name_3_lastname"));
+html tag=<input value="" id="name_3_lastname" name="last_name" class="input_fields  piereg_validate[required] input_fields" type="text">
+Xpath=//*[@id="name_3_lastname"]
+
+WebDriver MaritalStatus=driver.findElement(By.Xpath(/html/body/div[1]/div/div[1]/main/article/div/div/div[3]/form/ul/li[2]/div/div/input[1]));
+html tag=<input value="single" name="radio_4[]" class="input_fields  radio_fields" data-map-field-by-class="radio_4" type="radio">
+Xpath=/html/body/div[1]/div/div[1]/main/article/div/div/div[3]/form/ul/li[2]/div/div/input[1]
+
+Wbdriver Hobby= driver.findElement(By.class("input_fields  piereg_validate[required] radio_fields"));
+html tag=<input value="dance" name="checkbox_5[]" class="input_fields  piereg_validate[required] radio_fields" data-map-field-by-class="checkbox_5" type="checkbox">
+Xpath=/html/body/div[1]/div/div[1]/main/article/div/div/div[3]/form/ul/li[3]/div/div/input[1]
+
+WebDriver Country=driver.findElement(By.Xpath(//*[@id="dropdown_7"]));
+Xpath=//*[@id="dropdown_7"]
+
+WebDriver month=driver.findElement(By.Xpath(//*[@id="mm_date_8"]));
+Xpath=//*[@id="mm_date_8"]
+
+WebDriver date= driver.findElement(By.Xpath(//*[@id="dd_date_8"]));
+Xpath=//*[@id="dd_date_8"]
+
+WebDriver year =driver.findElement(By.Xpath(//*[@id="yy_date_8"]));
+Xpath=//*[@id="yy_date_8"]
+
+WebDriver PnoneNumber=driver.findElement(By.id("phone_9"));
+html tag=<input id="phone_9" class="input_fields  piereg_validate[required,custom[phone_international]]" name="phone_9" placeholder="" value="" type="text">
+Xpath=//*[@id="phone_9"]
+
+WebDriver userName= driver.findElement(By.Xpath(//*[@id="username"]));
+Xpath=//*[@id="username"]
+
+WebDriver EmailIdLogin= driver.findelement(By.Xpath//*[@id="email_1"]));
+//*[@id="email_1"]
+
+WebDriver ProfilePic=driver.findElement(By.Xpath(//*[@id="profile_pic_10"]));
+Xpath=//*[@id="profile_pic_10"]
+
+
+WebDriver AboutYourself= driver.FindElement(By.Xpath(//*[@id="description"]));
+Xpath=//*[@id="description"]
+html tag=<textarea name="description" id="description" rows="5" cols="80"></textarea>
+
+WebDriver CreatePassword=driver.findElement(By.Xpath(//*[@id="password_2"]));
+Xpath=//*[@id="password_2"]
+
+WebDriver CondfirmPassword= driver.findElement(By.Xpath(//*[@id="confirm_password_password_2"]));
+Xpath=//*[@id="confirm_password_password_2"]
+
+WebDriver StrengthIndicator= driver.findElement(By.id("piereg_passwordStrength"));
+html tag=<div id="piereg_passwordStrength" class="piereg_pass">Strength Indicator</div>
+//*[@id="piereg_passwordStrength"]
+
+
+WebDriver SubmitAccount= driver.findelement(By.Xpath(/html/body/div[1]/div/div[1]/main/article/div/div/div[3]/form/ul/li[14]/div/input));
+html tag=<input name="pie_submit" value="Submit" type="submit">
+Xpath=/html/body/div[1]/div/div[1]/main/article/div/div/div[3]/form/ul/li[14]/div/input
+
+
+
+
+
+

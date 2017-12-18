@@ -1,0 +1,132 @@
+
+Website:http://automationpractice.com
+
+Web Elements in HomePage:
+
+WebDriver indexPage = driver.findElement(By.id("index"));html=<body id"index"class="index hide-left-column hide-right-column lang_en">
+
+//WebDriver driver.findElement(By.linkText("http://automationpractice.com"));
+
+WebDriver contact= driver.findElememt(By.id("contact"));
+html=<bodyid="contact"class="contact hide-left-column hide-right-column lang_en">
+
+WebDriver SignIn= driver.findElement(By.id("authentication"));
+html= <body id="authentication"class="authentication hide-left-column hide-right-column lang_en">
+
+WebDriver categoryWomen= driver.findElemet(By.class("category category-3 category-women hide-right-column lang_en"));
+html=<body id"Category"class"category category-3 category-women hide-right-column lang_en">
+
+WebDriver categoryDresses= driver.findElemet(By.class("category category-8 category-dresses hide-right-column lang_en"));
+html=<body id"Category"class="category category-8 category-dresses hide-right-column lang_en">
+
+WebDriver categoryTshirt= driver.findElement(By.class("category category-5 category-tshirts hide-right-column lang_en"));
+html=<body id"Category" class="category category-5 category-tshirts hide-right-column lang_en">
+
+WebDriver Search=driver.findElement(By.id("Search"));html=<body id="search" class=class="search hide-right-column lang_en">
+
+WebDriver popularDress= driver.findElement(By.class("class="index hide-left-column hide-right-column lang_en"));
+html=<body id"indexclass="index hide-left-column hide-right-column lang_en">
+
+WebDriver imgFile=driver.findElement(By.class("item-img"));
+html=<img class="item-img" src="http://automationpractice.com/modules/themeconfigurator/img/banner-img6.jpg">
+
+WebDriver imgFile1=driver.findElement(By.LinkText("http://www.prestashop.com/"));
+html=class="item-link" href:http://www.prestashop.com/" title=""
+<img class="item-img" src="http://automationpractice.com/modules/themeconfigurator/img/banner-img6.jpg">
+
+WebDriver SubCategoryTops=driver.findElement(By.LinkText("http://automationpractice.com/index.php?id_category=4&controller=category"));
+html=class="sf-with-ul" href="http://automationpractice.com/index.php?id_category=4&controller=category"title="Tops"
+
+WebDriver SubTopTShirt=driver.findElement(By.LinkText("http://automationpractice.com/index.php?id_category=5&controller=category"));
+html=<a href="http://automationpractice.com/index.php?id_category=5&controller=category"title="T-shirts"T-shirts</a>
+
+WebDriver SubTopBlouse= driver.findElement(By.LinkText("http://automationpractice.com/index.php?id_category=7&controller=category")); 
+html=<a href="http://automationpractice.com/index.php?id_category=7&controller=category title="Blouses">Blouses</a>
+
+WebDriver SubTopCasual =driver.findElement(By.LinkText("http://automationpractice.com/index.php?id_category=9&controller=category")); 
+html=<a href="http://automationpractice.com/index.php?id_category=9&controller=category" title="Casual Dresses">
+
+WebDriver SubTopEveDress= driver.findElememt(By.LinklText("http://automationpractice.com/index.php?id_category=10&controller=category"));
+html=<a href="http://automationpractice.com/index.php?id_category=10&controller=category"title="Evening Dresses">
+
+WebDriver SubTopSumDress = driver.findElement(By.Class("category category-11 category-summer-dresses hide-right-column lang_en")); 
+html=<body id="category"class="category category-11 category-summer-dresses hide-right-column lang_en">
+
+WebDriver Dresses= driver.findElement(By.Class("class="category category-8 category-dresses hide-right-column lang_en"));
+html=<body id" Category"class="category category-8 category-dresses hide-right-column lang_en">
+
+WebDriver DcasualDress= driver.findElement(By.Class("category category-9 category-casual-dresses hide-right-column lang_en"));
+html=<body id" Category" "category category-9 category-casual-dresses hide-right-column lang_en">
+
+WebDriver DEveningDress=driver.findElement(By.class("category category-10 category-evening-dresses hide-right-column lang_en")); 
+html=<body id="category" "category category-10 category-evening-dresses hide-right-column lang_en">
+
+WebDriver DSummerDress= driver.findElement(By.Class("category category-11 category-summer-dresses hide-right-column lang_en"));
+html=<body id="category""category category-11 category-summer-dresses hide-right-column lang_en">
+
+WebDriver Tshirts =driver.findElement(By.Class("category category-5 category-tshirts hide-right-column lang_en"));
+html=<body id="category""category category-5 category-tshirts hide-right-column lang_en">
+
+WebDriver ShpingCart = driver.findElement(By.LinkText("http://automationpractice.com/index.php?controller=order"));
+html=<a href="http://automationpractice.com/index.php?controller=order"title="View my shopping cart"rel="nofollow">
+
+WebDriver Newsletter= driver.findElement(By.id("newsletter-input"));
+html=<input class="inputNew form-control grey newsletter-input" id="newsletter-input" name="email" size="18" value="Enter your e-mail" type="text">
+
+WebDriver NewsletterButton = driver.findElement(By.class("btn btn-default button button-small"));
+html=<button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+ 
+
+WebDriver FooterWomen=driver.findElement(By.LinkText("http://automationpractice.com/index.php?id_category=3&controller=category"));
+html=<a href="http://automationpractice.com/index.php?id_category=3&controller=category" title="You"You will find here all woman fashion collections.  
+ This category includes all the basics of your wardrobe and much more: 
+ shoes, accessories, printed t-shirts, feminine dresses, women's jeans!"><Women</a>
+
+WebDriver FooterSpecial=driver.findElement("http://automationpractice.com/index.php?controller=prices-drop"));
+html=<a href="http://automationpractice.com/index.php?controller=prices-drop" title="Specials"</a>
+
+WebDriver FooterNewproducts= driver.findElements(By.id("new-products"));
+html=<body id="new-products"class="new-products hide-right-column lang_en">
+
+WebDriver FooterBestSellers = driver.findElement(By.id("best sales"));
+html=<body id="best sales" class="best-sales hide-right-column lang_en">
+
+WebDriver FooterStores= driver.findElement(By.id(""stores"));
+html= <body id="stores"class="stores hide-left-column hide-right-column lang_en">
+
+WebDriver FooterContact= driver.findElement(By.Class("contact hide-left-column hide-right-column lang_en"));
+html=<bodyid="contact"class="contact hide-left-column hide-right-column lang_en">
+
+WebDriver FooterTerms= driver.findElement(By.id("cms"));
+html=<body id="cms"class="cms cms-3 cms-terms-and-conditions-of-use hide-left-column hide-right-column lang_en">
+
+WebDriver FooterABoutus= driver.findElement(By.class("cms cms-4 cms-about-us hide-left-column hide-right-column lang_en"));
+html=<body id="cms" class="cms cms-4 cms-about-us hide-left-column hide-right-column lang_en">
+
+WebDriver FooterSitemap= driver.findElement(By.id("sitemap"));
+html=<body id="sitemap"class="sitemap hide-right-column lang_en">
+
+WebDriver CreateAccount= driver.findElement(By.id("email_create"));
+html=<inputid="email_create"class="is_required validate account_input form-control"data-validate="isEmail"name="email_create"value=""type="text">
+
+WebDriver SubmitCreate= driver.findElement(By.id("Submitcreate"));
+html=<button id="SubmitCreate" class="btn btn-default button button-medium exclusive"type="submit"name="SubmitCreate">
+
+
+WebDriver EmailId= driver.findElement(By.id("email"));
+html=<input class="is_required validate account_input form-control" data-validate="isEmail" id="email" name="email" value="" type="text">
+
+WebDriver Password=driver.findElement(By.id("passwd"));
+html=<input class="is_required validate account_input form-control" data-validate="isPasswd" id="passwd" name="passwd" value="" type="password">
+
+webDriver SubmitLogin= driver.findElement(By.id("SubmitLogin"));
+html=<button id="SubmitLogin"class="button btn btn-default button-medium"type="submit"name="SubmitLogin">
+
+
+
+
+
+
+
+
+
